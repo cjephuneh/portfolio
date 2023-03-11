@@ -39,7 +39,7 @@ const Header = () => {
 
                     <li className='nav_item'>
                         <a href = "#portfolio" className="nav_link">
-                            <i className = "uil uil-scenert nav-icon"></i>
+                            <i className = "uil uil-scenery nav-icon"></i>
                             Portfolio
                         </a>
                     </li>
@@ -53,6 +53,12 @@ const Header = () => {
 
                 </ul>
 
+                <i className='uil uil-times nav__close'></i>
+
+
+            </div>
+            <div className='nav__toggle'>
+            <i className='uil uil-apps'></i>
             </div>
         </nav>
 
